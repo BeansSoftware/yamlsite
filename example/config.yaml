@@ -1,9 +1,15 @@
 
 app:
-  title: Beans Software
+  title: Beans Software GmbH
   pages:
     - index_ru.yaml
   templates: ./templates/
   out: ./out/
   static: ./static
-  static_root: ./
+  static_root: ""
+
+  counters:
+    project_done: 29
+    project_in_work: 7
+    code_lines: 159.5k
+    developers: 100+

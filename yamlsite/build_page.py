@@ -29,12 +29,8 @@ def render_page(page, config):
     html = codecs.open(os.path.join(config["app"]["templates"], page["template"]), "r", "utf-8").read()
     template = Template(html)
     page.update(config)
-    print("---> %s", len(page["about_us"]["items"]))
     text = template.render(page)
     log.debug(text)
-
-
-
     if not os.path.exists(config["app"]["out"]):
         os.mkdir(config["app"]["out"])
     with open(os.path.join(config["app"]["out"], page["out"]), 'w') as _out_file:
@@ -44,5 +40,7 @@ def render_page(page, config):
 def copy_static(config):
     for f in listdir(config["app"]["static"]):
         log.info("Copy static %s", f)
-        rmtree(os.path.join(config["app"]["out"], config["app"]["static_root"], f))
+        if os.path.exists(os.path.join(config["app"]["out"], config["app"]["static_root"], f)):
+            rmtree(os.path.join(config["app"]["out"], config["app"]["static_root"], f))
+
         copytree(os.path.join(config["app"]["static"], f),  os.path.join(config["app"]["out"], config["app"]["static_root"], f))

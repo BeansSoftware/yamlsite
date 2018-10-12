@@ -7,6 +7,12 @@ menu:
     url: #home
   - title: О НАС
     url: #about
+  - title: Услуги
+    url: #services
+  - title: Журнал
+    url: #news
+  - title: Контакты
+    url: #contact
 
 
 main:
@@ -31,13 +37,210 @@ about_us:
          комерции и вендинговых машин. Мы разрабатывали все от банковского ПО до мобильных приложений. Готовы взятся за
          проект любой сложности.
     - title: <span class='text-primary'>Интернациональные</span> специалисты
+      ico: ti-user
       content: >
         Мы находим качественных и не дорогих разработчиков по всему миру. Не секрет что в таких странах как Украина,
         Россия, Белоруссия большое количество высококвалифицированных разработчиков, которые не хотят переезжать в
         европу. Мы создаем удаленные рабочие места для них в европе.
     - title: Богатый <span class='text-primary'>Инструментарий</span>
+      ico: ti-ruler-alt-2
       content: >
         Мы готовы разработать по на любом из популярных языков программирования: JAVA, C#, Python, C++, PHP, Elixir.
         У меем работать с самыми современными базами данных: ORACLE, MSSQL, MySQL, Postgres. Значем как работать с
         BIGDATA и микросервисами.
 
+
+work_teaser:
+  project_done: Завершенных проектов
+  project_in_work: Проекта в разработке
+  code_lines: Написано строчек кода
+  developers: Разработчиков в пуле
+
+services:
+  title: Услуги
+  content: Мы предоставляем весь спектр услуг для по разработке ПО
+  items:
+    - title: Техническое задания
+      content: Мы разработаем техническое задание для будующего проекта.
+      ico: ti-agenda
+      items:
+        - Поймем ваш проект
+        - Подберем решение
+        - Составим тех. задание
+        - Проведем аудит оборудования
+        - Расчитаем стоимость
+        - Расчитаем риски
+    - title: Разработка ПО
+      content: Разработаем ПО любой сложности командами удаленных разработчиков.
+      ico: ti-write
+      items:
+        - Найдем разработчиков
+        - Выполним работу по ТЗ
+        - Отчитаемся о каждом этапе
+    - title: Поддержка
+      content: Обеспечим поддержку и доработку ПО после завершения проекта.
+      ico: ti-support
+      items:
+        - Поддержка в течении 10 часов
+        - Доработка наших проектов
+        - Доработка чужих проектов
+        - Локализация
+        - Создание контента
+    - title: Для Разработчиков
+      content: Мы готовы добавить себе в пул любую команду разработчиков. Предоставлять постоянную радоту нпд проектами
+      ico: ti-user
+      items:
+        - Удаленная работа
+        - Постоянные заказы
+        - Почасовая оплата
+        - JAVA
+        - C#
+        - Python
+        - Elexir
+
+
+info_teaser:
+  title: BEANS SOFTWARE специализируется на коммуникации заказчика и уделенных команд по разработке ПО.
+  connect_now: Связатся сейчас
+  connect_link: "#contact"
+  items:
+    - title: Свяжитесь с нами
+      ico: ti-thumb-up
+      content: Специалисты ответят на все интересующие вас вопросы.
+
+    - title: Готовые решения
+      ico: ti-twitter
+      content: У нас очень много собственных разраьоток, возможно какая-то подойдет именно вам.
+
+
+army:
+  title: BEANS ARMY
+  content: С кем вы будите работать.<br/>Основные люди в нашей команде.
+  items:
+    - name: DMITRII VYSOCHIN
+      memo: Подписание контрактов. Ведение процесса разработки.
+      img: images/avatar/army-1.png
+      soc:
+        - ico: ti-facebook
+          link: https://www.facebook.com/dmitry.vysochin
+        - ico: ti-linkedin
+          link: https://www.linkedin.com/in/dmitry-vysochin-05b86761/
+        - ico: ti-instagram
+          link: https://www.instagram.com/cityinphoto/
+
+    - name: NATALIA MAVRICHEVA
+      memo: Директор
+      img: images/avatar/army-2.jpg
+
+    - name: IGOR GOLDOVSKII
+      memo: Управление, Техничиские задания
+      img: images/avatar/army-3.png
+      soc:
+        - ico: ti-facebook
+          link: https://www.facebook.com/profile.php?id=100015240221591
+        - ico: ti-linkedin
+          link: https://www.linkedin.com/in/igor-goldovsky-51b751a3/
+
+    - name: INNA KNIAZHITSYNA
+      memo: Менеджер, переводчик DE, EN, RU, UA
+      img: images/avatar/army-4.png
+
+how_to:
+  title: Как мы это делаем
+  content: Что именно мы делаем для вас
+  items:
+    - title: Изучаем
+      ico: ti-search
+      content: Изучаем ваши потребности. Смотрим на ваше оборудование.
+    - title: Планируем
+      ico: ti-pencil
+      content: Разрабатываем тех задание. Расчитываем стоимости проектов. Подбираем инструментарий.
+    - title: Разрабатываем
+      ico: ti-settings
+      content: Подбираем инструментарий. Разрабатываем. Согласовываем и дорабатываем.
+    - title: Устанавливаем
+      ico: ti-car
+      content: Устанавливаем и настраиваем ПО на вашем оборудовании. Обучаем ваших специалистов.
+
+
+about_teaser:
+  content: >
+    Мы вам предлагаем забыть о собственных разрботчиках. Мы спрячем от вас всю работу по разработке вашего ПО.
+    Мы точно разбираемся во всех аспектах разработи.
+  items:
+    - УМНОЕ ПЛАНИРОВАНИЕ
+    - КРЕАТИВНАЯ РАЗРАБОТКА
+    - ВЕДЕНИЕ ПРОЕКТА
+  btn: Обратится
+  link: "#contact"
+
+
+journal:
+  title: Журнал
+  content: Мы участвуем во многих мероприятиях IT индустрии по всему миру.
+  link_name: Подробнее
+  items:
+    - title: Конференция ORACLE
+      content: Закрытая конференция по БД Oracle в Москве
+      img: images/avatar/conf-1.jpg
+      link: "#"
+    - title: Конференция по BIG DATA
+      content: Приняли участие на последней конференции по BIG DATA в Амстердаме.
+      img: images/avatar/conf-2.jpg
+      link: "#"
+    - title: HACKATON SXSW 2017
+      content: Вот мы на Хакатоне SXSW
+      img: images/avatar/conf-3.png
+      link: "#"
+
+
+reviews:
+  title: ОТЗЫВЫ
+  coments: Отзывы о нашей работе
+  items:
+    - ico: images/avatar/av-1.png
+      content: >
+        Полностью готовый интернет портал по продаже строительного оборудования был выполнен быстро и в срок.
+        Нам предоставили полный отчет о всех этапах разработки. В данный момент BEANS занимается наполнением контента.
+        Спасибо.
+      name: TER AG Ltd
+      who: Beans customers
+    - ico: images/avatar/av-2.png
+      content: >
+        Предоставили готовое решение для наших потребностей. Сэкономили большое количество денег.
+      name: INROLM HOLDING LTD
+      who: Beans customers
+    - ico: images/avatar/av-3.png
+      content: >
+        Работаю с людьми из этой компании уже 5-ть лет. Всегда есть работа, всегда интересные проекты, всегда
+        своевременная оплата.
+      name: SOLAR GAMES UA
+      who: Beans developers
+
+
+contact:
+  title: СВЯЖИТЕСЬ С НАМИ
+  content: Пишите, звоните приходите.
+  form:
+    title: Поздароватся!
+    name: Имя...
+    email: E-Mail...
+    message: Сообщение...
+    send: Отправить
+  items:
+    - title: Адрес
+      ico: ti-home
+      content: >
+        Neumanstraße 135<br/>
+        Berlin, Germany<br/>
+        13189
+    - title: Телефон
+      ico: ti-headphone
+      content: >
+        +01 12 301 963<br/>
+        +01 33 399 939
+    - title: Почта & Сайт
+      ico: ti-email
+      content: >
+        info@beanssoftware.com<br/>
+        http://beanssoftware.com
