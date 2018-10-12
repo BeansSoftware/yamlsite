@@ -1,0 +1,9 @@
+
+app:
+  title: Beans Software
+  pages:
+    - index_ru.yaml
+  templates: ./templates/
+  out: ./out/
+  static: ./static
+  static_root: ./
