@@ -5,7 +5,6 @@ import yaml
 import logging
 from jinja2 import Template
 from os import listdir
-from os.path import isfile, join
 from shutil import copytree, rmtree
 import codecs
 
@@ -30,8 +29,12 @@ def render_page(page, config):
     html = codecs.open(os.path.join(config["app"]["templates"], page["template"]), "r", "utf-8").read()
     template = Template(html)
     page.update(config)
+    print("---> %s", len(page["about_us"]["items"]))
     text = template.render(page)
     log.debug(text)
+
+
+
     if not os.path.exists(config["app"]["out"]):
         os.mkdir(config["app"]["out"])
     with open(os.path.join(config["app"]["out"], page["out"]), 'w') as _out_file:
