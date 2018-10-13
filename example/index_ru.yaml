@@ -19,6 +19,8 @@ menu:
 
 main:
   title: Студия Дистанционной Разработки программного обеспечения
+  description: Студия Дистанционной Разработки программного обеспечения
+  thumbnail: images/thumbnail-ru.jpeg
 
 
 about_us:

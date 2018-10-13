@@ -5,11 +5,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>{{ app.title }}</title>
-        <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
         <!-- Plugins CSS -->
-        <link href="css/plugins/plugins.css" rel="stylesheet">
+        <link href="css/plugins/plugins.css" rel="stylesheet" />
         <!-- Custom CSS -->
-        <link href="css/style.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="{{ main.thumbnail }}" />
+        <meta property="og:url" content="http://beanssoftware.com" />
+        <meta property="og:title" content="{{ app.title }}" />
+        <meta property="og:description" content="{{ main.description }}" />
+
     </head>
     <body data-spy="scroll" data-offset="58">
         <div id="preloader">
