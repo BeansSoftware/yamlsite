@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
                     {% for item in menu %}
-                        <li class="nav-item"><a data-scroll class="nav-link active {{ item.class }}" href="{{ item.url }}">{{ item.title }}</a></li>
+                        <li class="nav-item"><a data-scroll class="nav-link{% if loop.first %} active{% endif %} {{ item.class }}" href="{{ item.url }}">{{ item.title }}</a></li>
                     {% endfor %}
                     <li class="nav-item"><a class="nav-link bg-primary btn-rounded" href="index.html">EN</a></li>
                     <li class="nav-item"><a class="nav-link bg-primary btn-rounded" href="index-de.html">DE</a></li>
