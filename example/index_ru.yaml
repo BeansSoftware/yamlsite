@@ -99,17 +99,22 @@ services:
         - Elexir
 
 
+# „Those who can imagine anything, can create the impossible.“
+#
+# Источник: https://ru.citaty.net/avtory/alan-tiuring/
+# title: <em>„Those who can imagine anything, can create the impossible.“</em> <br/> — Alan Turing
+# title: <em>„Programmieren ist eine Fähigkeit, die am besten durch Übung und Ausprobieren und nicht aus Büchern erworben wird.“</em> <br/> — Alan Turing
 info_teaser:
-  title: BEANS SOFTWARE специализируется на коммуникации заказчика и удаленных команд по разработке ПО.
+  title: <em>„Те, у кого есть воображение, могут создать невозможное.“</em> <br/> — Алан Тьюринг
   connect_now: Связаться сейчас
   connect_link: "#contact"
   items:
     - title: Свяжитесь с нами
-      ico: ti-thumb-up
+      ico: ti-headphone-alt
       content: Специалисты ответят на все интересующие вас вопросы.
 
     - title: Готовые решения
-      ico: ti-twitter
+      ico: ti-pencil-alt
       content: У нас много собственных разработок и, возможно, какая-то подойдет именно вам!
 
 
