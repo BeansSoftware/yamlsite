@@ -55,7 +55,7 @@ services:
   content: Wir bieten eine vollständige Palette von Softwareentwicklungsdiensten an.
   items:
     - title: Technische Aufgabe
-      content: Wir werden die technische Aufgabe für das zukünftige Projekt entwickeln. Wir werden:
+      content: Wir werden die technische Aufgabe für das zukünftige Projekt entwickeln. Wir werden.
       ico: ti-agenda
       items:
         - Ihr Projekt studieren
