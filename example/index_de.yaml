@@ -1,0 +1,245 @@
+
+template: index.html
+out: index-de.html
+
+menu:
+  - title: HOME
+    url: "#home"
+  - title: ÜBER UNS
+    url: "#about"
+  - title: Dienstleistungen
+    url: "#services"
+  - title: Team
+    url: "#army"
+  - title: Blog
+    url: "#news"
+  - title: Kontakte
+    url: "#contact"
+
+
+main:
+  title: Software-Fernentwicklung Studio
+  description: Software-Fernentwicklung Studio
+  thumbnail: images/thumbnail-ru.jpeg
+
+
+about_us:
+  title: ÜBER UNS
+  content: Wir beschäftigen uns mit Koordination des Entwicklungsprozesses zwischen Auftraggeber und Fernentwicklerteams.
+  teaser: >
+        Wir sind <span class="text-primary">Software-Fernentwicklung Studio</span>.
+        Wir koordinieren die Arbeit von Fernentwicklerteams die sich mit Software-Entwicklung beschäftigen. Sie geben uns Entwicklung in Auftrag, und wir werden alles andere übernehmen. Unser Pool enthält mehr als 10 Teams, insgesamt mehr als 100 Entwickler, Designers, Contentmanagers. Wir werden sicherlich alle ihren möglichen Bedürfnisse abdecken. 
+        Wir haben immer Mitarbeiter, die bereit sind, sofort mit Entwicklung Ihrer Software zu beginnen. 
+  items:
+    - title: Enorme <span class='text-primary'>Erfahrung</span>
+      content: >
+        Wir haben eine sehr grosse Erfahrung mit Führung und Koordination von Software-Fernentwicklung. Wir haben Spezielltracker erstellt, so dass Sie immer Entwicklungsphasen folgen können. Wir besitzen eine grosse Menge von Erkenntnissen in allen Bereichen, vor allem im Bereich von E-Commerce, Verkaufsautomaten und Datenübertragung. Wir haben alles entwickelt: von Bank Software bis mobile Apps. Wir sind immer bereit, überaus herausfordernde Projekte zu übernehmen. 
+    - title: <span class='text-primary'>Internationale</span> Facharbeiter
+      ico: ti-user
+      content: >
+        Weltweit finden wir hochqualifizierte und guenstige Entwickler. Es ist kein Geheimnis dass es in solchen Ländern wie z.B. Ukraine, Russland, Weissrussland sehr viele hochqualifizierten Entwickler gibt, die bereit sind,  Fernarbeit und Software-Entwicklung für Auftraggeber aus Europa zu übernehmen. 
+        Unsererseits schaffen wir für sie remote Arbeitsplätze in Europa. 
+    - title: Reiche <span class='text-primary'>Toolkit</span>
+      ico: ti-ruler-alt-2
+      content: >
+        Wir sind bereit, Software in einer der gängigen Programmiersprachen zu entwickeln: JAVA, C#, Python, C++, PHP, Elixir.
+        Wir können mit den modernsten Datenbanken arbeiten: ORACLE, MSSQL, MySQL, Postgres. Wir wissen, wie man mit BIGDATA und Microservices arbeitet.
+work_teaser:
+  project_done: Abgeschlossene Projekte
+  project_in_work: Projekte in Entwicklung
+  code_lines: Geschriebene Codezeilen
+  developers: Entwickler im Pool
+
+services:
+  title: Dienstleistungen
+  content: Wir bieten eine vollständige Palette von Softwareentwicklungsdiensten an.
+  items:
+    - title: Technische Aufgabe
+      content: Wir werden die technische Aufgabe für das zukünftige Projekt entwickeln. Wir werden:
+      ico: ti-agenda
+      items:
+        - Ihr Projekt studieren
+        - die Lösung finden 
+        - die technische Aufgabe erstellen
+        - Audit von Equipment durchführen 
+        - die Kosten berechnen
+        - Risiken kalkulieren
+    - title: Software Entwicklung
+      content: Wir werden Software beliebiger Komplexität durch Remote-Entwicklungsteams entwickeln.
+      ico: ti-write
+      items:
+        - Entwickler aussuchen
+        - die technische Aufgabe erledigen
+        - einen Bericht über jede Arbeitsphase abstatten
+    - title: Support
+      content: Wir werden die Software nach Abschluss des Projekts unterstützen und verfeinern.
+      ico: ti-support
+      items:
+        - Permanente technische Unterstützung
+        - Sofortige Problemlösung
+        - Verfeinerung unserer Projekte
+        - Verfeinerung von externen Projekten
+        - Lokalisierung
+        - Content Erstellung
+    - title: Für Entwickler 
+      content: Wir sind bereit, beliebiges Entwicklungsteam in unseren Pool aufzunehmen. Wir werden projektbezogene Dauerarbeit zuweisen
+      ico: ti-user
+      items:
+        - Fernarbeit
+        - Daueraufträge
+        - Stundenlohn
+        - JAVA
+        - C#
+        - Python
+        - Elixir
+
+# „Those who can imagine anything, can create the impossible.“
+#
+# Источник: https://ru.citaty.net/avtory/alan-tiuring/
+# title: <em>„Those who can imagine anything, can create the impossible.“</em> <br/> — Alan Turing
+# title: <em>„Programmieren ist eine Fähigkeit, die am besten durch Übung und Ausprobieren und nicht aus Büchern erworben wird.“</em> <br/> — Alan Turing
+info_teaser:
+  title: <em>„Wer Fantasie hat, kann das Unmögliche schaffen.“</em> <br/> — Alan Turing
+  connect_now: Kontakt aufnehmen
+  connect_link: "#contact"
+  items:
+    - title: Kontaktieren Sie uns jetzt
+      ico: ti-headphone-alt
+      content: Unsere Experten werden alle Ihren Fragen beantworten.
+
+    - title: Framework
+      ico: ti-pencil-alt
+      content: Wir haben viele Eigenentwicklungen, und vielleicht finden Sie etwas genau für Sie passend!
+
+
+army:
+  title: UNSER TEAM
+  content: Beans Team Mitarbeiter <br/> Mit unserem Team werden Sie zusammenarbeiten, technische Aufgaben besprechen; sie werden den Entwicklungslauf von Ihrer Software kontrollieren, und mit Ihnen telephonieren.
+  items:
+    - name: DMITRII VYSOCHIN
+      memo: Vertragsunterzeichnung. Führung von Entwicklungsprozesses.
+      img: images/avatar/army-1.png
+      soc:
+        - ico: ti-facebook
+          link: https://www.facebook.com/dmitry.vysochin
+        - ico: ti-linkedin
+          link: https://www.linkedin.com/in/dmitry-vysochin-05b86761/
+        - ico: ti-instagram
+          link: https://www.instagram.com/cityinphoto/
+
+    - name: NATALIA MAVRICHEVA
+      memo: Geschäftsführer
+      img: images/avatar/army-2.jpg
+
+    - name: IGOR GOLDOVSKII
+      memo: Management, technische Aufgaben
+      img: images/avatar/army-3.png
+      soc:
+        - ico: ti-facebook
+          link: https://www.facebook.com/profile.php?id=100015240221591
+        - ico: ti-linkedin
+          link: https://www.linkedin.com/in/igor-goldovsky-51b751a3/
+
+    - name: INNA KNIAZHITSYNA
+      memo: Manager, Übersetzerin DE, EN, RU, UA
+      img: images/avatar/army-4.png
+
+
+how_to:
+  title: Wie wir das machen
+  content: Was genau wir machen
+  items:
+    - title: Bedürfnisanalyse
+      ico: ti-search
+      content: Wir werden Ihre Bedürfnisse und Equipment analysieren. Wir entwickeln die technische Aufgabe.
+    - title: Planung
+      ico: ti-pencil
+      content: Wir berechnen die Kosten von Projekten. Wir koordinieren Termine und Fristen. Wir suchen Toolkit aus.
+    - title: Entwicklung
+      ico: ti-settings
+      content: Wir suchen ein qualifiziertes Team von Bearbeitern aus. Wir kontrollieren den Entwicklungslauf. Wir zeigen die Zwischenphasen der Entwicklung.
+    - title: Installation
+      ico: ti-import
+      content: Wir installieren und konfigurieren Software auf Ihrer Hardware. Wir schulen Ihre Spezialisten.
+
+
+about_teaser:
+  content: >
+    Mit uns können Sie das Problem der Suche nach eigenen Entwicklern vergessen!  Wir übernehmen alle Entwicklungsarbeiten in Bezug auf Ihrer Software.
+    Wir kennen und verstehen alle Aspekte der Entwicklung.
+  items:
+    - SMART PLANUNG
+    - KREATIVE ENTWICKLUNG
+    - PROJEKTMANAGEMENT     
+  btn: Kontaktieren
+  link: "#contact"
+
+
+journal:
+  title: Blog
+  content: Wir nehmen an vielen Veranstaltungen der IT-Branche auf der ganzen Welt teil.
+  link_name: Mehr erfahren
+  items:
+    - title: ORACLE Code Konferenz. Moskau. 23. Mai 2017. 
+      content: Es ist eine gratis Aktion für Entwickler, wo Sie sich über die neuesten Technologien, Methoden und Trends in der Entwicklung informieren können. Erhalten Sie die neuen Kenntnisse von Technikern. 
+      img: images/avatar/conf-1.jpg
+      link: https://developer.oracle.com/code/moscow
+    - title: BIG DATA Konferenz
+      content: Wir haben an der aktuellsten IEEE BigData 2017 Konferenz in Boston teilgenommen.
+      img: images/avatar/conf-2.jpg
+      link: http://cci.drexel.edu/bigdata/bigdata2017/
+    - title: HACKATON SXSW 2017
+      content: Besuch von Hackaton SXSW
+      img: images/avatar/conf-3.png
+      link: https://www.sxsw.com/exhibitions/spotlights/
+
+
+reviews:
+  title: BEWERTUNGEN
+  coments: Arbeitsbewertungen
+  items:
+    - ico: images/avatar/av-1.png
+      content: >
+        Das fertige Internetportal für den Verkauf von Baumaschinen wurde schnell und pünktlich fertiggestellt.
+        Wir haben einen vollständigen Bericht über alle Entwicklungsstufen erhalten. Derzeit beschäftigt sich BEANS mit Inhaltsbefüllung. 
+        Vielen Dank.
+      name: TER AG Ltd
+      who: Beans customers
+    - ico: images/avatar/av-2.png
+      content: >
+        Die Firma hat eine Framework für unsere Bedürfnisse bereitsgestellt. Wir haben eine Menge Zeit und Geld gespart.
+      name: INROLM HOLDING LTD
+      who: Beans customers
+    - ico: images/avatar/av-3.png
+      content: >
+        Mit dieser Firma arbeite ich schon seit 5 Jahren zusammen. Immer gibt es Arbeit, immer sehr interessante Projekte, rechtzeitige Bezahlung.
+      name: SOLAR GAMES UA
+      who: Beans developers
+
+
+contact:
+  title: KONTAKTIEREN SIE UNS
+  content: Schreiben Sie, rufen Sie an, besuchen Sie uns.
+  form:
+    title: Lernen Sie uns kennen!
+    name: Name...
+    email: E-Mail...
+    message: Nachricht...
+    send: Versenden
+  items:
+    - title: Adresse
+      ico: ti-home
+      content: >
+        Neumanstraße 135<br/>
+        Berlin, Germany<br/>
+        13189
+    - title: Phone
+      ico: ti-headphone
+      content: >
+        +01 12 301 963<br/>
+        +01 33 399 939
+    - title: E-mail & Homepage
+      ico: ti-email
+      content: >
+        info@beanssoftware.com<br/>
+        http://beanssoftware.com

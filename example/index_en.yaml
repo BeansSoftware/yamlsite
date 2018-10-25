@@ -1,0 +1,249 @@
+
+template: index.html
+out: index-en.html
+
+menu:
+  - title: HOME
+    url: "#home"
+  - title: ABOUT
+    url: "#about"
+  - title: SERVICES
+    url: "#services"
+  - title: TEAM
+    url: "#army"
+  - title: BLOG
+    url: "#news"
+  - title: CONTACTS
+    url: "#contact"
+
+
+main:
+  title: Remote Software Development Studio
+  description: Remote Software Development Studio
+  thumbnail: images/thumbnail-ru.jpeg
+
+
+about_us:
+  title: ABOUT US
+  content: We coordinate the development process between the customer and the remote teams of developers.
+  teaser: >
+    We are <span class="text-primary">Remote Software Development Studio</span>.
+    We coordinate the work of the remote software development teams. You order us the development, while we take care about everything else. 
+    Our pool consists of more than 10 teams, in the overall amount above 100 developers, designers, and content managers. We are able to satisfy all your needs precisely. 
+    We always have the right people ready to start your software development process straight away. 
+  items:
+    - title: Wealth of <span class='text-primary'>experience</span>
+      content: >
+      We have wide experience in remote software development. We created specific trackers, designed to control the development milestones. We have a great amount of developments in plenty of areas, especially in e-commerce, vending machines and telecommunications. We developed everything from banking software to mobile applications. We are always ready to take a project of any complexity.
+    - title: <span class='text-primary'>International</span> Specialists
+      ico: ti-user
+      content: >
+      We search out for qualified and inexpensive developers all around the world. It’s not a secret that such countries as Ukraine, Russia, Belarus are able to provide a huge number of highly skilled developers who are ready to work remotely to create software for European customers. 
+      In our turn we offer remote jobs for them in Europe.
+    - title: Extensive <span class='text-primary'>Toolkit</span>
+      ico: ti-ruler-alt-2
+      content: >
+        We are ready to develop software in any of the popular programming languages: JAVA, C#, Python, C++, PHP, Elixir.
+        We are able to work with the most advanced databases: ORACLE, MSSQL, MySQL, Postgres. We know how to work with BIGDATA and microservices.
+work_teaser:
+  project_done: completed projects
+  project_in_work: projects in development
+  code_lines: lines of code
+  developers: developers in pool
+
+services:
+  title: SERVICES
+  content: We provide a complete range of software development services
+  items:
+    - title: Terms of reference
+      content: We will develop terms of reference for the future project.
+      ico: ti-agenda
+      items:
+        - Study your project
+        - Find a solution
+        - Prepare terms of reference
+        - Lead an equipment audit
+        - Calculate the costs
+        - Estimate the threats
+    - title: Software development
+      content: We develop software of any complexity by our remote development teams.
+      ico: ti-write
+      items:
+        - We choose the developers
+        - We execute the work according to the terms of reference
+        - We will give an account of every project milestone
+    - title: Support
+      content: We provide the support and software maintenance after the project is completed.
+      ico: ti-support
+      items:
+        - Continuous technical support
+        - On-line problem solution
+        - Rework of our projects
+        - Rework of other projects
+        - Localisation
+        - Content creation      
+    - title: For developers
+      content: We are ready to add any development team to our pool. We will provide regular work on the projects.
+      ico: ti-user
+      items:
+        - Remote work
+        - Constant orders
+        - Hourly wages
+        - JAVA
+        - C#
+        - Python
+        - Elixir
+
+
+# „Those who can imagine anything, can create the impossible.“
+#
+# Источник: https://ru.citaty.net/avtory/alan-tiuring/
+# title: <em>„Those who can imagine anything, can create the impossible.“</em> <br/> — Alan Turing
+# title: <em>„Programmieren ist eine Fähigkeit, die am besten durch Übung und Ausprobieren und nicht aus Büchern erworben wird.“</em> <br/> — Alan Turing
+info_teaser:
+  title: <em>„Those who can imagine anything, can create the impossible.“</em> <br/> — Alan Turing
+  connect_now: Contact now
+  connect_link: "#contact"
+  items:
+    - title: Contact us
+      ico: ti-headphone-alt
+      content: Our experts will answer your questions.
+
+    - title: Frameworks
+      ico: ti-pencil-alt
+      content: We have plenty of our own developments, any of which could be the right one for you!
+
+
+army:
+  title: OUR TEAM
+  content: Beans Team employees <br/> With them you will work, discuss terms of reference, they will control your software development process and communicate with you by phone.
+
+  items:
+    - name: DMITRII VYSOCHIN
+      memo: Signing the contracts. Carrying out the development process.
+      img: images/avatar/army-1.png
+      soc:
+        - ico: ti-facebook
+          link: https://www.facebook.com/dmitry.vysochin
+        - ico: ti-linkedin
+          link: https://www.linkedin.com/in/dmitry-vysochin-05b86761/
+        - ico: ti-instagram
+          link: https://www.instagram.com/cityinphoto/
+
+    - name: NATALIA MAVRICHEVA
+      memo: Director
+      img: images/avatar/army-2.jpg
+
+    - name: IGOR GOLDOVSKII
+      memo: Management, Terms of reference
+      img: images/avatar/army-3.png
+      soc:
+        - ico: ti-facebook
+          link: https://www.facebook.com/profile.php?id=100015240221591
+        - ico: ti-linkedin
+          link: https://www.linkedin.com/in/igor-goldovsky-51b751a3/
+
+    - name: INNA KNIAZHITSYNA
+      memo: Manager, translator DE, EN, RU, UA
+      img: images/avatar/army-4.png
+
+
+how_to:
+  title: HOW WE DO IT
+  content: What are we doing exactly
+  items:
+    - title: Study
+      ico: ti-search
+      content: We study your needs. We analyse your equipment. We develop terms of reference.
+    - title: Planning
+      ico: ti-pencil
+      content: We estimate the project expenses. We conform the deadlines. We select the toolkit.
+    - title: Development
+      ico: ti-settings
+      content: We choose a competent developers team. We control the development process. We demonstrate the interim stages of development.
+    - title: Installation
+      ico: ti-import
+      content: We install and configure software on your hardware. We train your specialists.
+
+
+about_teaser:
+  content: >
+    Forget about the problem of finding your own developers. We will undertake all the work on the development of your software. 
+    We know precisely and understand all aspects of development.
+  items:
+    - SMART PLANNING
+    - CREATIVE DEVELOPMENT
+    - PROJECT MANAGEMENT
+  btn: Consult
+  link: "#contact"
+
+
+journal:
+  title: BLOG
+  content: We take part in many IT industry events around the world.
+  link_name: Read more
+  items:
+    - title: ORACLE Code Conference. Moscow. May 23, 2017
+      content: This is free-to-attend event for developers, where you can learn about the latest technologies, methods and development trends. Get a new knowledge from experts.
+      img: images/avatar/conf-1.jpg
+      link: https://developer.oracle.com/code/moscow
+    - title: BIG DATA Conference
+      content: Took part in the latest IEEE BigData 2017 conference in Boston.
+      img: images/avatar/conf-2.jpg
+      link: http://cci.drexel.edu/bigdata/bigdata2017/
+    - title: HACKATON SXSW 2017
+      content: Visited the Hackathon SXSW
+      img: images/avatar/conf-3.png
+      link: https://www.sxsw.com/exhibitions/spotlights/
+
+
+reviews:
+  title: FEEDBACK
+  coments: Feedback on our activity
+  items:
+    - ico: images/avatar/av-1.png
+      content: >
+        All ready Internet portal for the sale of building equipment was completed quickly and on time. 
+        We were provided with a full report on all milestones of development. BEANS is filling it with content at the moment. 
+        Thanks.
+      name: TER AG Ltd
+      who: Beans customers
+    - ico: images/avatar/av-2.png
+      content: >
+        Provided a framework for our needs. Saved a lot of time and money.
+      name: INROLM HOLDING LTD
+      who: Beans customers
+    - ico: images/avatar/av-3.png
+      content: >
+        Work with this company for 5 years already. Always a work to do, always interesting projects, always 
+        on time repayment.
+      name: SOLAR GAMES UA
+      who: Beans developers
+
+
+contact:
+  title: CONTACT US
+  content: Write, call, come.
+  form:
+    title: Get acquainted!
+    name: Name...
+    email: E-Mail...
+    message: Message...
+    send: Send
+  items:
+    - title: Address
+      ico: ti-home
+      content: >
+        Neumanstraße 135<br/>
+        Berlin, Germany<br/>
+        13189
+    - title: Phone
+      ico: ti-headphone
+      content: >
+        +01 12 301 963<br/>
+        +01 33 399 939
+    - title: E-mail & Web
+      ico: ti-email
+      content: >
+        info@beanssoftware.com<br/>
+        http://beanssoftware.com

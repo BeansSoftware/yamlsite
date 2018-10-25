@@ -3,6 +3,8 @@ app:
   title: Beans Software GmbH
   pages:
     - index_ru.yaml
+    - index_de.yaml
+    - index_en.yaml
   templates: ./templates/
   out: ./out/
   static: ./static
