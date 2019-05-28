@@ -5,6 +5,7 @@ app:
     - index_ru.yaml
     - index_de.yaml
     - index_en.yaml
+    - impressum_de.yaml
   templates: ./templates/
   out: ./out/
   static: ./static
