@@ -114,10 +114,10 @@ info_teaser:
 
 army:
   title: UNSER TEAM
-  content: Beans Team Mitarbeiter <br/> Mit unserem Team werden Sie zusammenarbeiten, technische Aufgaben besprechen; sie werden den Entwicklungslauf von Ihrer Software kontrollieren, und mit Ihnen telephonieren.
+  content: Beans Team Mitarbeiter <br/> Mit unserem Team werden Sie zusammenarbeiten und technische Aufgaben besprechen. Wir werden den Entwicklungslauf von Ihrer Software kontrollieren und die Details mit Ihnen abstimmen.
   items:
     - name: DMITRII VYSOCHIN
-      memo: Vertragsunterzeichnung. Führung von Entwicklungsprozesses.
+      memo: Geschäftsführer. Führung von Entwicklungsprozesses.
       img: images/avatar/army-1.png
       soc:
         - ico: ti-facebook
@@ -128,7 +128,7 @@ army:
           link: https://www.instagram.com/cityinphoto/
 
     - name: NATALIA MAVRICHEVA
-      memo: Geschäftsführer
+      memo: Geschäftsführerin
       img: images/avatar/army-2.jpg
 
     - name: IGOR GOLDOVSKII
